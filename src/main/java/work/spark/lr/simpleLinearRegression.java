@@ -174,7 +174,7 @@ public class simpleLinearRegression {
             Matrix train = rg.CreateMatrix(rg.trainFile);
             Matrix test = rg.CreateMatrix(rg.testFile);
 
-            /** get the actual attributes, meanwhile add a N*1 column vector with value being all 1 as the first column of the attributes */
+           
             Matrix trainData = rg.dataPointsObtain(train);
             Matrix testData = rg.dataPointsObtain(test);
 
